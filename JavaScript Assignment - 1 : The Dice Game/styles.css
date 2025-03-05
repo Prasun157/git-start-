@@ -1,0 +1,43 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  body {
+      display: flex;
+      height: 100vh;
+      font-family: Monospace, sans-serif;
+  }
+  .sidebar {
+      width: 20%;
+      background-color: #00abe1;
+      color: white;
+      padding: 0px;
+      text-align: center;
+  }
+  .content {
+      width: 60%;
+      background-color: #000000;
+      padding: 10px;
+      text-align: center;
+  }
+  .right-sidebar {
+      width: 20%;
+      background-color: #ea445a;
+      color: white;
+      padding: 0px;
+      text-align: center;
+  }
+ 
+  .dicedice{
+    margin: 10px;
+    padding: 20px 55px;
+    font-size: 70px;
+    border:5px dotted white;
+    color:white;
+    background-color:red ;
+    font-weight: bold;
+    border-radius: 20px;
+    text-align: center;
+    
+  }
